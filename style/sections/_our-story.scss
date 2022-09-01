@@ -1,0 +1,117 @@
+.our-story {
+
+    padding-top: 48px;
+    padding-bottom: 64px;
+    
+    &__title {
+        position: relative;
+        text-align: center;
+        margin-bottom: 81px;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 2px;
+            background-color: #16ACE8;
+            position: absolute;
+            top: 36px;
+            left: 50%;
+            transform: translate(-50%);
+
+        }
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+    
+    }
+    &__info {
+        margin-right: 70px;
+        @media (max-width:992px) {
+            max-width: 450px;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            
+        }
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27.24px;
+        letter-spacing: 0.19px;
+        color: #48555B;
+        margin-bottom: 30px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+        letter-spacing: 0.19px;
+        color: #48555B;
+    }
+    &__text-dec {
+        letter-spacing: 0.17px;
+        color: #16ACE8;
+    }
+    &__cards {
+        align-self: center;
+        display: flex;
+
+        @media (max-width: 576px) {
+            flex-direction: column;
+            
+        }
+    }
+    &__card {
+        width: 140px;
+        height: 225px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.19px;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 15px 15px;
+
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+
+
+        @media (max-width: 576px) {
+
+    
+
+            
+
+            &:not(:first-child) {
+                margin-top: 30px;
+            } 
+
+            &:not(:last-child) {
+                margin-right: 0px;
+            }
+            
+        }
+    }
+
+    // &__container {}
+}
+
+#card-1 {
+    background-image: url("../../img/card-bg-1.jpg");
+}
+
+#card-2 {
+    background-image: url("../../img/card-bg-2.jpg");
+}
+
+#card-3 {
+    background-image: url("../../img/card-bg-3.jpg");
+}

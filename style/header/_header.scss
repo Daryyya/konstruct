@@ -1,0 +1,59 @@
+.header {
+
+    background-image: url('../../img/header-bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &__content-box {
+        margin: 0 auto;
+        max-width: 635px;
+        padding: 0 30px;
+        height: 100vh;
+        padding-top: 41px;
+        padding-bottom: 71px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    &__main-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        font-family:'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 72px;
+        letter-spacing: 5.71px;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0; 
+        // margin 0 для h1 можно записать в reset
+    }
+
+    &__subtitle {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.79px;
+        color: #fff;
+    }
+
+    &__scroll-down {
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 14.98px;
+        letter-spacing: 3.7px;
+        color: #fff;
+        text-transform: uppercase;
+
+        // &__logo {}
+    }
+}
+

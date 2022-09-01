@@ -1,0 +1,79 @@
+.contact {
+    padding-top: 120px;
+    padding-bottom: 230px;
+      
+    background-image: url("../../img/footer-bg.png");
+    // height: calc(100vh - 160px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 45%;
+    // margin-bottom: 160px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__question {
+        max-width: 350px;
+        text-align: center;
+        margin-bottom: 35px;
+        color: #48555B;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 0.15px;
+    }
+}
+
+.form-container {
+    min-height: 100px;
+    width: 100%;
+    background-color: #171819;
+    padding: 30px;
+    margin: 0 auto;
+    
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29.96px;
+    letter-spacing: 0.85px;
+    text-align: center;
+    color: #fff;
+    margin-right: 70px;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+
+}
+
+
+
+.last-line {
+    height: 60px;
+    background-color: #171819;
+    width: 100%;
+    padding: 22.5px 0px;
+     p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14.98px;
+        letter-spacing: 0.85px;
+        color: #fff;
+
+     }
+}
+
+#email {
+    padding-left: 10px;
+}

@@ -1,0 +1,36 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.51px;
+    letter-spacing: 2.31px;
+    color: #48555B;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.btn {
+    // padding: 11px 29px;
+    // max-width: 150px;
+    max-height: 40px;
+    padding: 10px 28px;
+    box-sizing: border-box;
+    background-color: #16ACE8;
+}
+.link {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17.7px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
