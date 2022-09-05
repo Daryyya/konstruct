@@ -37,7 +37,6 @@
             text-align: center;
             margin: 0 auto;
             margin-bottom: 30px;
-            
         }
     }
     &__subtitle {
@@ -85,11 +84,6 @@
 
 
         @media (max-width: 576px) {
-
-    
-
-            
-
             &:not(:first-child) {
                 margin-top: 30px;
             } 
@@ -97,7 +91,6 @@
             &:not(:last-child) {
                 margin-right: 0px;
             }
-            
         }
     }
 

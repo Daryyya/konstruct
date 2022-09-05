@@ -1,13 +1,10 @@
 .contact {
     padding-top: 120px;
     padding-bottom: 230px;
-      
     background-image: url("../../img/footer-bg.png");
-    // height: calc(100vh - 160px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 45%;
-    // margin-bottom: 160px;
 
     &__container {
         display: flex;
@@ -55,8 +52,6 @@
     }
 
 }
-
-
 
 .last-line {
     height: 60px;

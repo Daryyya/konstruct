@@ -49,19 +49,7 @@
     }
 }
 
-// #contact {}
-
-// временно
-// @media (max-width: 768px) {
-//     .navigation {
-//         display: none;
-//     }
-    
-// }
-
-
 // burger
-
 
 .humb {
     display: none;
@@ -70,95 +58,6 @@
 .popup {
     display: none;
 }
-
-// @media (max-width: 576.66px) {
-//     .menu {
-//         display: none;
-//     }
-
-//     .humb {
-//         display: flex;
-//         position: fixed;
-//         top: 0;
-//         right: 0;
-//     }
-//     .humb__field {
-//         padding: 20px 30px;
-//         cursor: pointer;
-//     }
-//     .bar {
-//         display: block;
-//         width: 30px;
-//         height: 3px;
-//         margin: 6px auto;
-//         background-color: black; 
-//         transition: 0.3s;
-//     }
-//     .popup {
-//         position: fixed;
-//         top: 75px;
-//         right: -100%;
-//         width: 100%;
-//         height: 100%;
-//         z-index: 100;
-//         display: flex;
-//         transition: 0.3s;
-//         background-color: #fff;
-//       }
-     
-//       .popup.open {
-//         right: 0;
-//       }
-     
-//       .popup .menu {
-//         width: 100%;
-//         height: 100%;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         justify-content: start;
-//         padding: 50px 0;
-//         overflow: auto;
-//       }
-
-//       .popup .menu > li {
-//         width: 100%;
-//       }
-     
-//       .popup .menu > li > a {
-//         width: 100%;
-//         display: flex;
-//         justify-content: center;
-//         padding: 20px 0;
-//         font-size: 20px;
-//         font-weight: bold;
-//         color: #3f3f3f;
-//       }
-     
-//       .popup .menu > li > a:hover {
-//         background-color: rgba(122, 82, 179, 0.1);
-//       }
-     
-//       .humb__field.active .bar:nth-child(2) {
-//         opacity: 0;
-//       }
-     
-//       .humb__field.active .bar:nth-child(1) {
-//         transform: translateY(8px) rotate(45deg);
-//       }
-     
-//       .humb__field.active .bar:nth-child(3) {
-//         transform: translateY(-8px) rotate(-45deg);
-//       }
-     
-//       body.noscroll {
-//         overflow: hidden;
-//         #title {
-//             opacity: 0;
-//             transition: 0.3s;
-//         }
-//       }
-// }
 
 @media (max-width: 768px) {
     .menu {
@@ -203,11 +102,7 @@
         right: 0;
         
     }
-
    
-
-    
-
     .popup .menu {
         width: 100%;
         height: 100%;
